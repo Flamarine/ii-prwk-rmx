@@ -1,0 +1,13 @@
+--- ii/.config/matugen/config.toml	2025-07-29 20:55:49.699890958 +0800
++++ work/.config/matugen/config.toml	2025-07-29 21:31:39.401799976 +0800
+@@ -29,6 +29,10 @@
+ input_path = '~/.config/matugen/templates/kde/color.txt'
+ output_path = '~/.local/state/quickshell/user/generated/color.txt'
+ 
++[templates.helix]
++input_path = '~/.config/matugen/templates/helix/theme.toml'
++output_path = '~/.config/helix/themes/matugen.toml'
++
+ [templates.wallpaper]
+ input_path = '~/.config/matugen/templates/wallpaper.txt'
+ output_path = '~/.local/state/quickshell/user/generated/wallpaper/path.txt'
