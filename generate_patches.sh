@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+[ -d "work/cache" ] && rm -r "work/cache"
+
 rm -rf patches && mkdir patches
 
 (

@@ -1,6 +1,6 @@
 --- /dev/null	2025-07-29 10:57:09.043591782 +0800
-+++ work/.config/matugen/templates/helix/theme.toml	2025-07-29 23:00:57.269115806 +0800
-@@ -0,0 +1,159 @@
++++ work/.config/matugen/templates/helix/theme.toml	2025-07-29 23:36:13.119347801 +0800
+@@ -0,0 +1,152 @@
 +# Source: https://github.com/InioX/matugen-themes/blob/main/templates/helix.toml
 +
 +# --- Syntax Elements ---
@@ -153,10 +153,3 @@
 +"diagnostic.info" = { fg = "{{ colors.tertiary.default.hex }}", underline = { color = "{{ colors.tertiary.default.hex }}", style = "curl" } }
 +"diagnostic.hint" = { fg = "{{ colors.tertiary_container.default.hex }}", underline = { color = "{{ colors.tertiary_container.default.hex }}", style = "curl" } }
 +"diagnostic.unnecessary" = { modifiers = ["dim"] }
-+
-+# --- Fallbacks (non-template usage) ---
-+
-+error = "{{ colors.error.default.hex }}"
-+warning = "{{ colors.yellow.default.hex }}"
-+info = "{{ colors.primary.default.hex }}"
-+hint = "{{ colors.secondary.default.hex }}"
