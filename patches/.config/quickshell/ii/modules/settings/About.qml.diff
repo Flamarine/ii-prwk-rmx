@@ -1,0 +1,54 @@
+--- ii/.config/quickshell/ii/modules/settings/About.qml	2025-07-29 20:55:49.707651964 +0800
++++ work/.config/quickshell/ii/modules/settings/About.qml	2025-07-29 23:00:57.271263676 +0800
+@@ -12,7 +12,7 @@
+ 
+     ContentSection {
+         title: Translation.tr("Distro")
+-        
++
+         RowLayout {
+             Layout.alignment: Qt.AlignHCenter
+             spacing: 20
+@@ -74,7 +74,7 @@
+                     Qt.openUrlExternally(SystemInfo.privacyPolicyUrl)
+                 }
+             }
+-            
++
+         }
+ 
+     }
+@@ -94,7 +94,7 @@
+                 Layout.alignment: Qt.AlignVCenter
+                 // spacing: 10
+                 StyledText {
+-                    text: Translation.tr("illogical-impulse")
++                    text: Translation.tr("illogical-impulse (Prismwork Remix)")
+                     font.pixelSize: Appearance.font.pixelSize.title
+                 }
+                 StyledText {
+@@ -106,6 +106,15 @@
+                     }
+                     PointingHandLinkHover {}
+                 }
++                StyledText {
++                    text: "https://github.com/Flamarine/ii-prwk-rmx"
++                    font.pixelSize: Appearance.font.pixelSize.normal
++                    textFormat: Text.MarkdownText
++                    onLinkActivated: (link) => {
++                        Qt.openUrlExternally(link)
++                    }
++                    PointingHandLinkHover {}
++                }
+             }
+         }
+ 
+@@ -143,7 +152,7 @@
+                 }
+             }
+ 
+-            
++
+         }
+     }
+ }

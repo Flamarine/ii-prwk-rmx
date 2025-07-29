@@ -1,0 +1,18 @@
+--- ii/.config/quickshell/translations/vi_VN.json	2025-07-29 20:55:49.711946402 +0800
++++ work/.config/quickshell/translations/vi_VN.json	2025-07-29 23:00:57.284040280 +0800
+@@ -186,7 +186,7 @@
+   "Opens cheatsheet on press": "Mở bảng tra cứu khi ấn",
+   "Invalid arguments. Must provide `key` and `value`.": "Biến không hợp lệ. cần cả `key` và `value`.",
+   "About": "Giới thiệu",
+-  "illogical-impulse": "illogical-impulse",
++  "illogical-impulse (Prismwork Remix)": "illogical-impulse (Prismwork Remix)",
+   "Help & Support": "Trợ giúp",
+   "Enter tags, or \"%1\" for commands": "Nhập tag hoặc \"%1\" để xem các lệnh",
+   "Format": "Định dạng",
+@@ -370,4 +370,4 @@
+   "Online | Google's model\nNewer model that's slower than its predecessor but should deliver higher quality answers": "Trực tuyến | Model của Google\nMới hơn nhưng chậm hơn so với phiên bản trước nhưng nên cung cấp câu trả lời chất lượng cao hơn",
+   "Preferred wallpaper zoom (%)": "Tỷ lệ thu phóng hình nền (%)",
+   "Function Response": "Phản hồi function"
+-}
+\ 文件末尾没有换行符
++}

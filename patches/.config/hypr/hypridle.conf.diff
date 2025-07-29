@@ -1,0 +1,23 @@
+--- ii/.config/hypr/hypridle.conf	2025-07-29 20:55:49.698759144 +0800
++++ work/.config/hypr/hypridle.conf	2025-07-29 23:00:57.262593987 +0800
+@@ -10,17 +10,17 @@
+ }
+ 
+ listener {
+-    timeout = 300 # 5mins
++    timeout = 1800 # 30mins
+     on-timeout = loginctl lock-session
+ }
+ 
+ listener {
+-    timeout = 600 # 10mins
++    timeout = 2700 # 45mins
+     on-timeout = hyprctl dispatch dpms off
+     on-resume = hyprctl dispatch dpms on
+ }
+ 
+ listener {
+-    timeout = 900 # 15mins
++    timeout = 3600 # 60mins
+     on-timeout = $suspend_cmd
+ }
