@@ -35,4 +35,4 @@ rm -rf patches && mkdir patches
     fi
 done
 
-echo "Patches generated and savend to ./patches"
+echo "Patches generated and saved to ./patches"
