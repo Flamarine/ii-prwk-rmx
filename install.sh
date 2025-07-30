@@ -3,4 +3,4 @@
 
 ./work/install.sh
 
-rm -r ./work/cache
+[ -d "work/cache" ] && rm -r "work/cache"
