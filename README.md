@@ -6,7 +6,13 @@ Changes are presented as auto-generated diffs.
 
 ## Setup
 
-Run `./install.sh`. This will setup the patched dotfiles and run the installation script attached.
+To install, run the following commands:
+
+```bash
+git clone https://github.com/Flamarine/ii-prwk-rmx.git
+cd ii-prwk-rmx
+./install.sh
+```
 
 ## Contribution
 
