@@ -1,5 +1,5 @@
 --- ii/.config/quickshell/ii/modules/settings/About.qml	2025-07-29 20:55:49.707651964 +0800
-+++ work/.config/quickshell/ii/modules/settings/About.qml	2025-07-29 23:23:59.397923498 +0800
++++ work/.config/quickshell/ii/modules/settings/About.qml	2025-07-30 20:38:22.136161389 +0800
 @@ -12,7 +12,7 @@
  
      ContentSection {
@@ -43,6 +43,15 @@
              }
          }
  
+@@ -125,7 +134,7 @@
+                 materialIconFill: false
+                 mainText: Translation.tr("Issues")
+                 onClicked: {
+-                    Qt.openUrlExternally("https://github.com/end-4/dots-hyprland/issues")
++                    Qt.openUrlExternally("https://github.com/Flamarine/ii-prwk-rmx/issues")
+                 }
+             }
+             RippleButtonWithIcon {
 @@ -143,7 +152,7 @@
                  }
              }

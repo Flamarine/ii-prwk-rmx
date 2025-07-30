@@ -1,5 +1,5 @@
---- /dev/null	2025-07-29 10:57:09.043591782 +0800
-+++ work/.config/matugen/templates/helix/theme.toml	2025-07-29 23:36:13.119347801 +0800
+--- /dev/null	2025-07-30 19:45:14.957254166 +0800
++++ work/.config/matugen/templates/helix/theme.toml	2025-07-30 19:59:00.955801929 +0800
 @@ -0,0 +1,152 @@
 +# Source: https://github.com/InioX/matugen-themes/blob/main/templates/helix.toml
 +
@@ -92,7 +92,7 @@
 +"ui.background" = { fg = "{{ colors.on_background.default.hex }}", bg = "none" }
 +
 +"ui.linenr" = { fg = "{{ colors.on_surface_variant.default.hex }}" }
-+"ui.linenr.selected" = { fg = "{{ colors.primary_fixed.default.hex }}" }
++"ui.linenr.selected" = { fg = "{{ colors.on_surface_variant.default.hex }}" }
 +
 +"ui.statusline" = { fg = "{{ colors.on_primary_container.default.hex }}", bg = "none" }
 +"ui.statusline.inactive" = { fg = "{{ colors.on_surface_variant.default.hex }}", bg = "none" }
@@ -131,8 +131,8 @@
 +
 +"ui.selection" = { bg = "none" }
 +
-+"ui.cursor" = { fg = "{{ colors.background.default.hex }}", bg = "{{ colors.on_primary_container.default.hex }}" }
-+"ui.cursor.primary" = { fg = "{{ colors.background.default.hex }}", bg = "{{ colors.primary_fixed.default.hex }}" }
++"ui.cursor" = { bg = "{{ colors.background.default.hex }}", fg = "{{ colors.on_primary_container.default.hex }}" }
++"ui.cursor.primary" = { bg = "{{ colors.background.default.hex }}", fg = "{{ colors.primary_fixed.default.hex }}" }
 +"ui.cursor.match" = { fg = "{{ colors.on_primary_container.default.hex }}", modifiers = [
 +    "bold",
 +] }

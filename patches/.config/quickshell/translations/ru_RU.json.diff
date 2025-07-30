@@ -1,5 +1,5 @@
---- ii/.config/quickshell/translations/ru_RU.json	2025-07-29 22:59:50.306764011 +0800
-+++ work/.config/quickshell/translations/ru_RU.json	2025-07-29 23:23:59.406023230 +0800
+--- ii/.config/quickshell/translations/ru_RU.json	2025-07-30 19:45:57.151018757 +0800
++++ work/.config/quickshell/translations/ru_RU.json	2025-07-30 19:46:04.980715633 +0800
 @@ -290,7 +290,7 @@
    "Format": "Формат",
    "Colors & Wallpaper": "Цвета и Обои",

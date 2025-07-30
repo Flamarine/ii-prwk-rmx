@@ -1,5 +1,5 @@
 --- ii/.config/matugen/config.toml	2025-07-29 20:55:49.699890958 +0800
-+++ work/.config/matugen/config.toml	2025-07-29 23:23:59.391680524 +0800
++++ work/.config/matugen/config.toml	2025-07-30 19:46:04.967885876 +0800
 @@ -29,6 +29,10 @@
  input_path = '~/.config/matugen/templates/kde/color.txt'
  output_path = '~/.local/state/quickshell/user/generated/color.txt'
