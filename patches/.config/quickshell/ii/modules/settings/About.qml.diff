@@ -1,5 +1,5 @@
 --- ii/.config/quickshell/ii/modules/settings/About.qml	2025-07-29 20:55:49.707651964 +0800
-+++ work/.config/quickshell/ii/modules/settings/About.qml	2025-07-30 20:38:22.136161389 +0800
++++ work/.config/quickshell/ii/modules/settings/About.qml	2025-08-04 10:16:45.247690898 +0800
 @@ -12,7 +12,7 @@
  
      ContentSection {

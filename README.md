@@ -1,4 +1,4 @@
-# Illogical Impulse (Prismwork Remix)
+# illogical-impulse (Prismwork Remix)
 
 Personal additions to [end-4's Hyprland dotfiles](https://github.com/end-4/dots-hyprland) that don't fit the original project well (or at least I think so, that said I might still contribute some features to upstream if wanted).
 
